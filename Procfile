@@ -1,1 +1,1 @@
-web: trinidad -p $PORT -e $RACK_ENV
+web: bundle exec trinidad -p $PORT -e $RACK_ENV
