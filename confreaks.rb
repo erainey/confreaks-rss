@@ -26,7 +26,7 @@ helpers do
     video_href = doc.search('.assets a').select { |a| a.text.include?(size) }.first
     return if video_href.nil?
 
-    video = settings.root + video_href[:href]
+    video = video_href[:href]
     title = doc.search('.video-title').text.strip
     author = doc.search('.video-presenters').text.strip
     conf = doc.search('div.center h3').text.strip
