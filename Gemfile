@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'sinatra', '~> 1.3.3', :require => nil
-gem 'trinidad', :require => nil
+gem 'puma', '~> 1.6.3'
 gem 'activesupport', '~> 3.2.9', :require => 'active_support/all'
 gem 'nokogiri', '~> 1.5.5'
 gem 'builder', '~> 3.1.4'
