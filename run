@@ -1,2 +1,0 @@
-#!/bin/bash
-./confreaks.rb -sv -p 4000

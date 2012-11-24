@@ -1,15 +1,10 @@
 source 'http://rubygems.org'
 
-gem 'goliath', '~> 0.9.0'
-gem 'nokogiri', '~> 1.4.4'
-gem 'i18n'
-gem 'activesupport', '~> 3.0.3', :require => 'active_support'
-gem 'builder', '~> 3.0.0'
-gem 'em-http-request', '~> 1.0.0.beta.3'
-gem 'yajl-ruby', '~> 0.8.1', :require => 'yajl/json_gem'
-gem 'dalli', '~> 1.0.3'
-
-group :development do
-  gem 'foreman', '~> 0.15.0', :require => nil
-  gem 'heroku', :require => nil
-end
+gem 'sinatra', '~> 1.3.3', :require => nil
+gem 'trinidad', :require => nil
+gem 'activesupport', '~> 3.2.9', :require => 'active_support/all'
+gem 'nokogiri', '~> 1.5.5'
+gem 'builder', '~> 3.1.4'
+gem 'dalli', '~> 2.5.0', :require => ['dalli', 'active_support/cache/dalli_store']
+gem 'rest-client', '~> 1.6.7'
+gem 'celluloid', '~> 0.12.3'

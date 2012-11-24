@@ -1,1 +1,1 @@
-web: bundle exec ./confreaks.rb -sv -e prod -p $PORT
+web: bin/trinidad -p $PORT -e $RACK_ENV
