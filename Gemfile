@@ -1,4 +1,6 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
+
+ruby '1.9.3', :engine => 'jruby', :engine_version => '1.7.2'
 
 gem 'sinatra', '~> 1.3.3', :require => nil
 gem 'puma', '~> 1.6.3'
